@@ -294,7 +294,7 @@ module.getquest = function()
 			LevelQuest = 2
 			NameCheckQuest = "8 Gorilla"
 
-			CFrameMyMon = CFrame.new(-1607.114013671875, 20.887107849121094, 156.6987762451172)
+			CFrameMyMon = CFrame.new(-1194.13525390625, 6.2626519203186035, -535.1138916015625)
 
 			CFrameQuest = CFrame.new(-1598.089111328125, 35.55011749267578, 153.37783813476562)
 		elseif MyLevel >= 0 then

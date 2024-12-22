@@ -1207,7 +1207,7 @@ module.getbossquest = function()
 		end
 	elseif MyLevel >= 20 then
 		if NameQuest == "JungleQuest" then
-			Monster_B = "Gorilla King"
+			Monster_B = "The Gorilla King"
 
 			LevelQuest_B = 3
 			NameCheckQuest_B = "The Gorilla King"

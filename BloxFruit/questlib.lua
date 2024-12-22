@@ -4,6 +4,7 @@ do
 	FirstSea = game.PlaceId == 2753915549
 	SecondSea = game.PlaceId == 4442272183
 	ThirdSea = game.PlaceId == 7449423635
+	repherekubnong = nil
 end
 
 module.getquest = function()
@@ -1036,6 +1037,234 @@ module.getquest = function()
 
 			CFrameQuest = CFrame.new(-450.1046447753906, 107.68145751953125, 5950.72607421875)
 
+		end
+	end
+end
+
+module.getbossquest = function()
+	local MyLevel = MyLevel or game.Players.LocalPlayer.Data.Level.Value
+	Monster_B = ""
+	if FirstSea then
+		if MyLevel >= 675 then
+			if NameQuest == "FountainQuest" then
+				Monster_B = "Cyborg"
+
+				LevelQuest_B = 3
+				NameCheckQuest_B = "1 Cyborg"
+
+				CFrameMyMon_B = CFrame.new(6026.85498046875, 56.75627136230469, 3911.870849609375)
+			end
+		elseif MyLevel >= 575 then
+			if NameQuest == "SkyExp2Quest" then
+				Monster_B = "Thunder God"
+
+				LevelQuest_B = 3
+				NameCheckQuest_B = "1 Thunder God"
+
+				CFrameMyMon_B = CFrame.new(-7795.9287109375, 5605.951171875, -2231.444580078125)
+			end
+		elseif MyLevel >= 500 then
+			if NameQuest == "SkyExp1Quest" then
+				Monster_B = "Wysper"
+
+				LevelQuest_B = 3
+				NameCheckQuest_B = "1 Wysper"
+
+				CFrameMyMon_B = CFrame.new(-7811.53271484375, 5585.1279296875, -652.8221435546875)
+			end
+		elseif MyLevel >= 425 then
+			if NameQuest == "FishmanQuest" then
+				Monster_B = "Fishman Lord"
+
+				LevelQuest_B = 3
+				NameCheckQuest_B = "1 Fishman Lord"
+
+				CFrameMyMon_B = CFrame.new(61347.0078125, 30.053680419921875, 1125.32177734375)
+			end
+		elseif MyLevel >= 350 then
+			if NameQuest == "MagmaQuest" then
+				Monster_B = "Magma Admiral"
+
+				LevelQuest_B = 3
+				NameCheckQuest_B = "1 Magma Admiral"
+
+				CFrameMyMon_B = CFrame.new(-5682.41064453125, 16.40520668029785, 8751.5849609375)
+			end
+		elseif MyLevel >= 240 then
+			if NameQuest == "ImpelQuest" then
+				Monster_B = "Swan"
+
+				LevelQuest_B = 3
+				NameCheckQuest_B = "1 Swan"
+
+				CFrameMyMon_B = CFrame.new(5184.12744140625, 57.404136657714844, 829.398681640625)
+			end
+		elseif MyLevel >= 230 then
+			if NameQuest == "ImpelQuest" then
+				Monster_B = "Chief Warden"
+
+				LevelQuest_B = 2
+				NameCheckQuest_B = "1 Chief Warden"
+
+				CFrameMyMon_B = CFrame.new(5184.12744140625, 57.404136657714844, 829.398681640625)
+			end
+		elseif MyLevel >= 220 then
+			if NameQuest == "ImpelQuest" then
+				Monster_B = "Warden"
+
+				LevelQuest_B = 1
+				NameCheckQuest_B = "1 Warden"
+
+				CFrameMyMon_B = CFrame.new(5184.12744140625, 57.404136657714844, 829.398681640625)
+			end
+		elseif MyLevel >= 130 then
+			if NameQuest == "MarineQuest2" then
+				Monster_B = "Vice Admiral"
+
+				LevelQuest_B = 2
+				NameCheckQuest_B = "1 Vice Admiral"
+
+				CFrameMyMon_B = CFrame.new(-5087.49267578125, 98.71009826660156, 4406.0498046875)
+			end
+		elseif MyLevel >= 105 then
+			if NameQuest == "SnowQuest" then
+				Monster_B = "Yeti"
+
+				LevelQuest_B = 3
+				NameCheckQuest_B = "1 Yeti"
+
+				CFrameMyMon_B = CFrame.new(1202.99462890625, 143.6376495361328, -1550.9326171875)
+			end
+		elseif MyLevel >= 55 then
+			if NameQuest == "BuggyQuest1" then
+				Monster_B = "Bobby"
+
+				LevelQuest_B = 3
+				NameCheckQuest_B = "1 Bobby"
+
+				CFrameMyMon_B = CFrame.new(-1097.8865966796875, 27.307741165161133, 4051.182373046875)
+			end
+		elseif MyLevel >= 20 then
+			if NameQuest == "JungleQuest" then
+				Monster_B = "The Gorilla King"
+
+				LevelQuest_B = 3
+				NameCheckQuest_B = "1 The Gorilla King"
+
+				CFrameMyMon_B = CFrame.new(-1196.4288330078125, 6.791248798370361, -448.4755554199219)
+			end
+		end
+	elseif SecondSea then
+		if MyLevel >= 1475 then
+			if NameQuest == "ForgottenQuest" then
+				Monster_B = "Tide Keeper"
+
+				LevelQuest_B = 3
+				NameCheckQuest_B = "1 Tide Keeper"
+
+				CFrameMyMon_B = CFrame.new(-3570.1865234375, 123.32894897460938, -11555.9072265625)
+			end
+		elseif MyLevel >= 1400 then
+			if NameQuest == "FrostQuest" then
+				Monster_B = "Awakened Ice Admiral"
+
+				LevelQuest_B = 3
+				NameCheckQuest_B = "1 Awakened Ice Admiral"
+
+				CFrameMyMon_B = CFrame.new(6407.33935546875, 339.2467041015625, -6892.52099609375)
+			end
+		elseif MyLevel >= 1150 then
+			if NameQuest == "IceSideQuest" then
+				Monster_B = "Smoke Admiral"
+
+				LevelQuest_B = 3
+				NameCheckQuest_B = "1 Smoke Admiral"
+
+				CFrameMyMon_B = CFrame.new(-5106.25146484375, 22.789506912231445, -5341.25146484375)
+			end
+		elseif MyLevel >= 925 then
+			if NameQuest == "MarineQuest3" then
+				Monster_B = "Fajita"
+
+				LevelQuest_B = 3
+				NameCheckQuest_B = "1 Fajita"
+
+				CFrameMyMon_B = CFrame.new(-2123.315673828125, 89.35710144042969, -4079.322021484375)
+			end
+		elseif MyLevel >= 850 then
+			if NameQuest == "Area2Quest" then
+				Monster_B = "Jeremy"
+
+				LevelQuest_B = 3
+				NameCheckQuest_B = "1 Jeremy"
+
+				CFrameMyMon_B = CFrame.new(2035.4229736328125, 447.9889221191406, 712.2064819335938)
+			end
+		elseif MyLevel >= 750 then
+			if NameQuest == "Area1Quest" then
+				Monster_B = "Diamond"
+
+				LevelQuest_B = 3
+				NameCheckQuest_B = "1 Diamond"
+
+				CFrameMyMon_B = CFrame.new(-1768.1483154296875, 315.549560546875, -61.178192138671875)
+			end
+		end
+	elseif ThirdSea then
+		if MyLevel >= 2175 then
+			if NameQuest == "IceCreamIslandQuest" then
+				Monster_B = "Cake Queen"
+
+				LevelQuest_B = 3
+				NameCheckQuest_B = "1 Cake Queen"
+
+				CFrameMyMon_B = CFrame.new(-717.3067016601562, 380.62359619140625, -11006.7158203125)
+			end
+		elseif MyLevel >= 1950 then
+			if NameQuest == "DeepForestIsland2" then
+				Monster_B = "Beautiful Pirate"
+
+				LevelQuest_B = 3
+				NameCheckQuest_B = "1 Beautiful Pirate"
+
+				CFrameMyMon_B = CFrame.new(5314.58203125, 21.594484329223633, -125.94227600097656)
+			end
+		elseif MyLevel >= 1875 then
+			if NameQuest == "DeepForestIsland" then
+				Monster_B = "Captain Elephant"
+
+				LevelQuest_B = 3
+				NameCheckQuest_B = "1 Captain Elephant"
+
+				CFrameMyMon_B = CFrame.new(-13351.3642578125, 404.9483642578125, -8570.650390625)
+			end
+		elseif MyLevel >= 1750 then
+			if NameQuest == "MarineTreeIsland" then
+				Monster_B = "Kilo Admiral"
+
+				LevelQuest_B = 3
+				NameCheckQuest_B = "1 Kilo Admiral"
+
+				CFrameMyMon_B = CFrame.new(2915.359375, 455.9102783203125, -7375.900390625)
+			end
+		elseif MyLevel >= 1675 then
+			if NameQuest == "VenomCrewQuest" then
+				Monster_B = "Hydra Leader"
+
+				LevelQuest_B = 3
+				NameCheckQuest_B = "1 Hydra Leader"
+
+				CFrameMyMon_B = CFrame.new(5567.677734375, 650.8583374023438, 195.727783203125)
+			end
+		elseif MyLevel >= 1550 then
+			if NameQuest == "PiratePortQuest" then
+				Monster_B = "Stone"
+
+				LevelQuest_B = 3
+				NameCheckQuest_B = "1 Stone"
+
+				CFrameMyMon_B = CFrame.new(-1141.4222412109375, 96.33948516845703, 6993.21337890625)
+			end
 		end
 	end
 end

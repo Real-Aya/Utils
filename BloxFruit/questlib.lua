@@ -623,7 +623,7 @@ module.getquest = function()
 			NameQuest = "TikiQuest2"
 
 			LevelQuest = 1
-			NameCheckQuest = "8 Sun%-kissed Warrior"
+			NameCheckQuest = "8 Sun"
 
 			CFrameMyMon = CFrame.new(-16261.44921875, 21.695554733276367, 1053.666748046875)
 

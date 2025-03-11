@@ -1,4 +1,4 @@
-{
+return {
   ["Sand Dollar"] = {
     ["Seasons"] = {
       [1] = "Summer"

@@ -1039,6 +1039,18 @@ module.getquest = function()
 
 		end
 	end
+	return {
+		LF = LevelFarm,
+		
+		MT = Monster,
+		NQ = NameQuest,
+		
+		LQ = LevelQuest,
+		NCQ = NameCheckQuest,
+		
+		CFMM = CFrameMyMon,
+		CFQ = CFrameQuest
+	}
 end
 
 module.getbossquest = function()
@@ -1213,6 +1225,12 @@ module.getbossquest = function()
 			NameCheckQuest_B = "The Gorilla King"
 		end
 	end
+	return {
+		MT_B = Monster_B,
+		
+		LQ_B = LevelQuest_B,
+		NCQ_B = NameCheckQuest_B
+	}
 end
 
 return module

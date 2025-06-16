@@ -80,6 +80,7 @@ spawn(function()
 	ScreenGui.Name = "CloseUI"
 	ScreenGui.Parent = game:GetService("CoreGui")
 	ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+	ScreenGui.DisplayOrder = 1000
 
 	Frame.Parent = ScreenGui
 	Frame.Active = true

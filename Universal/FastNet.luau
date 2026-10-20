@@ -49,7 +49,7 @@ local network = setmetatable(network or {
                 warn("Unable to Connect Network")
             end
         else
-            warn("Unable to Identify Remote Network")
+            warn("Unable to Identify Remote Network",name)
         end
     end,
 },{
